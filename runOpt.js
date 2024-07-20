@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const inputDir = './before';
-const outputDir = './';
+const outputDir = './after';
 
 if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir);
